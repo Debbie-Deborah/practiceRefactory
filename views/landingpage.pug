@@ -1,0 +1,41 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title Landing Page
+    link(rel="stylesheet", href="/public/debbie.css")
+    link(rel="stylesheet", href="/public/bootstrap/css/bootstrap.min.css")
+  body
+    nav.navbar.navbar-expand-lg.navbar-dark.bg-dark
+      .container-fluid
+        a.navbar-brand(href="#") Navbar
+        #navbarNavAltMarkup.collapse.navbar-collapse
+          .navbar-nav
+            a.nav-link.active(aria-current="page", href="#") Home
+            a.nav-link(href="#") Cookies
+            a.nav-link(href="#") Biscuits
+            a.nav-link.disabled LOGOUT
+    .container.dstyle
+      h1
+        strong.text-white Welcome to Debbie confectionaries
+      .row.g-3
+        .col-12.col-md-6.col-lg-4
+          .card
+            img.card-img-top(src="/public/images/car.jpg", width="300px", height="300px", alt="Event Cakes")
+            .card-body
+              h5.card-title Event Cakes
+              a.card-link(href="#") Click to place order
+        .col-12.col-md-6.col-lg-4
+          .card
+            img.card-img-top(src="/public/images/battery.jpg", width="300px", height="300px", alt="Cookies & Biscuits")
+            .card-body
+              h5.card-title Cookies &amp; Biscuits
+              a.card-link(href="#") Click to view more
+        .col-12.col-md-6.col-lg-4
+          .card
+            img.card-img-top(src="/public/images/tyre.jpg", width="300px", height="300px", alt="Other confectionaries")
+            .card-body
+              h5.card-title Other confectionaries
+              a.card-link(href="#") Click here for more

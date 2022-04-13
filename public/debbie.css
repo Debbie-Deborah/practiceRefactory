@@ -1,0 +1,26 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background: linear-gradient(to right, rgba(50, 70, 80, 0.7), rgba(243, 102, 102, 0.7)), url("/images/cake2.avif");
+    background-size: cover;
+    position: relative;
+    height: 750px;
+    background-repeat: no-repeat;
+    color: white;
+    
+}
+
+.fstyle {
+    margin-top: 250px;
+    /* padding: 20px; */
+}
+
+.dstyle{
+    margin-top: 50px;
+}
+
+
+
+h1 {
+    text-align: center;
+}
